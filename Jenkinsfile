@@ -6,7 +6,7 @@ pipeline{
     }
     
     stages {
-        stage ('complie java code') {
+        stage ('complie java codee') {
             steps {
                 sh 'mvn clean'
                 sh 'mvn install'
